@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panier - Boutique d'Habillement PATASI</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Boutique d'Habillement PATASI</div>
+    <nav class="navbar">
+      <a href="index.html">Accueil</a>
+      <a href="produits.html">Produits</a>
+      <a href="apropos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <a href="panier.html">Panier</a>
+    </nav>
+  </header>
+
+  <main class="panier-section">
+    <div class="panier-container">
+      <h1>Votre panier</h1>
+      <table class="panier-table">
+        <thead>
+          <tr>
+            <th>Produit</th>
+            <th>Prix</th>
+            <th>Quantité</th>
+            <th>Total</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Costume 2pieces</td>
+            <td>45 $</td>
+            <td><input type="number" value="1" min="1" /></td>
+            <td>45 $</td>
+            <td><button class="btn btn-remove">X</button></td>
+          </tr>
+          <!-- D'autres articles ici -->
+        </tbody>
+      </table>
+      <div class="total-panier">
+        <strong>Total :</strong> 45 $
+      </div>
+      <button class="btn">Valider la commande</button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Boutique d'Habillement PATASI. Tous droits réservés.</p>
+  </footer>
+  <script src="java/java.js"></script>
+</body>
+</html>
